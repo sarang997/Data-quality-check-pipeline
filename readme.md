@@ -15,19 +15,19 @@ The framework allows users to configure and trigger data processing pipelines th
 ## Usage Guide
 
 ### Install the following
-
-1. **Python 3.x**: Make sure Python 3.x is installed on your system.
-2. **Required Libraries**: Install the necessary Python libraries using the following command:
+1.Clone this repo somewhere and cd into "Data-quality-check-pipeline" folder.
+2. **Python 3.x**: Make sure Python 3.x is installed on your system.
+3. **Required Libraries**: Install the necessary Python libraries using the following command:
   ```bash 
   pip install -r requirements.txt
   ```
-3. **Start flask**- Start the flask server using the following command-
+4. **Start flask**- Start the flask server using the following command-
  
  ```bash
   python app.py
 ``` 
-4. **Make the request**- Make the request using the curl given in the sample http request curl in the end of this file.
-5. **HTTP request** -
+5. **Make the request**- Make the request using the curl given in the sample http request curl in the end of this file.
+6. **HTTP request** -
 
 ### Endpoint
 
