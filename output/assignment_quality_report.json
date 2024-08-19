@@ -1,0 +1,50 @@
+{
+  "pipeline_name": "assignment_task_pipeline",
+  "input_file": "./input/Assignment Task _ Dataset - Sheet1.csv",
+  "results": {
+    "check_missing_values": {
+      "Name": {
+        "missing_count": 3,
+        "missing_percentage": 2.941176470588235,
+        "exceeds_threshold": true
+      },
+      "Age": {
+        "missing_count": 2,
+        "missing_percentage": 1.9607843137254901,
+        "exceeds_threshold": true
+      }
+    },
+    "check_duplicate_rows": {
+      "check_type": "row",
+      "columns": [
+        "ID"
+      ],
+      "total_duplicates": 4,
+      "duplicate_indices": [
+        7,
+        8,
+        21,
+        22
+      ]
+    },
+    "check_inconsistent_dates": {
+      "Last_Login": {
+        "inconsistent_count": 2,
+        "inconsistent_percentage": 1.9607843137254901,
+        "inconsistent_indices": [
+          89,
+          90
+        ]
+      },
+      "Join_Date": {
+        "inconsistent_count": 3,
+        "inconsistent_percentage": 2.941176470588235,
+        "inconsistent_indices": [
+          44,
+          45,
+          46
+        ]
+      }
+    }
+  }
+}

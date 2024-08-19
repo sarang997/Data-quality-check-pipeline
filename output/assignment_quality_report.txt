@@ -1,0 +1,19 @@
+2024-08-19 15:22:50,785 - INFO - ==========================
+2024-08-19 15:22:50,786 - INFO - Pipeline execution started.
+2024-08-19 15:22:50,795 - INFO - Loaded data from /home/sarang/assignment/input/Assignment Task _ Dataset - Sheet1.csv with 102 rows and 7 columns.
+
+2024-08-19 15:22:50,795 - INFO - Starting Atomic task- check_inconsistent_dates
+2024-08-19 15:22:50,796 - INFO - Checking for inconsistent dates in columns: ['Last_Login', 'Join_Date']
+2024-08-19 15:22:50,802 - INFO - Column Last_Login: Found 2 inconsistent dates (1.96%)
+2024-08-19 15:22:50,805 - INFO - Column Join_Date: Found 3 inconsistent dates (2.94%)
+2024-08-19 15:22:50,805 - INFO - Atomic task result- {'Last_Login': {'inconsistent_count': 2, 'inconsistent_percentage': 1.9607843137254901, 'inconsistent_indices': [89, 90]}, 'Join_Date': {'inconsistent_count': 3, 'inconsistent_percentage': 2.941176470588235, 'inconsistent_indices': [44, 45, 46]}}.
+
+2024-08-19 15:22:50,806 - INFO - End of atomic task.
+
+2024-08-19 15:22:50,806 - INFO - Starting Atomic task- check_duplicate_rows
+2024-08-19 15:22:50,809 - INFO - Atomic task result- {'check_type': 'row', 'columns': ['ID'], 'total_duplicates': 4, 'duplicate_indices': [7, 8, 21, 22]}.
+
+2024-08-19 15:22:50,809 - INFO - End of atomic task.
+
+2024-08-19 15:22:50,812 - INFO - Report generated and saved to ./output/assignment_quality_report.json
+2024-08-19 15:22:50,813 - INFO - ==========================
