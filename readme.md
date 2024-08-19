@@ -15,7 +15,7 @@ The framework allows users to configure and trigger data processing pipelines th
 ## Usage Guide
 
 ### Install the following
-1.Clone this repo somewhere and cd into "Data-quality-check-pipeline" folder.
+1. Clone this repo somewhere and cd into "Data-quality-check-pipeline" folder.
 2. **Python 3.x**: Make sure Python 3.x is installed on your system.
 3. **Required Libraries**: Install the necessary Python libraries using the following command:
   ```bash 
